@@ -1,0 +1,86 @@
+{
+    "name": "moyo/cta_int",
+    "description": "CTA Corporate website v4",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Moyo Web Architects",
+            "email": "info@moyoweb.nl",
+            "homepage": "http://www.moyoweb.nl"
+        }
+    ],
+    "repositories": [ {
+        "name": "cta/composer",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/composer.git"
+    },{
+        "name": "cta/articles",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/articles.git"
+    },{
+        "name": "cta/default",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/moyo.git"
+    },{
+      "name": "cta/featured",
+      "type": "vcs",
+      "url": "https://github.com/cta-int/featured.git"
+    },{
+        "name": "cta/taxonomy",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/taxonomy.git"
+    },{
+        "name": "cta/cck",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/cck.git"
+    },{
+        "name": "cta/translations",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/translations.git"
+    },{
+        "name": "cta/categories",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/makundi.git"
+    },{
+        "name": "moyo/cloudinary",
+        "type": "vcs",
+        "url": "https://github.com/moyoweb/cloudinary.git"
+    },{
+        "name": "cta/kutafuta",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/kutafuta.git"
+    },{
+        "name": "cta/carousel",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/carousel.git"
+    },{
+        "name": "cta/sitemap",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/sitemap.git"
+    },{
+        "name": "cta/router",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/router.git"
+    },{
+        "name": "cta/terms",
+        "type": "vcs",
+        "url": "https://github.com/cta-int/terms.git"
+    } ]
+    ,
+    "require": {
+        "cta/composer": "1.0.*",
+        "cta/articles": "2.4.*",
+        "cta/default": "1.2.*",
+        "cta/featured": "2.0.*",
+        "cta/taxonomy": "2.0.*",
+        "cta/cck": "1.5.*",
+        "cta/translations": "1.1.*",
+        "cta/categories": "1.2.*",
+        "moyo/cloudinary": "1.1.*",
+        "cta/kutafuta": "1.1.*",
+        "cta/carousel": "1.0.*",
+        "cta/sitemap": "1.0.*",
+        "cta/router": "3.0.*",
+        "cta/terms": "1.1.*"
+    }
+}
