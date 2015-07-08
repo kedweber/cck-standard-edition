@@ -10,77 +10,77 @@
         }
     ],
     "repositories": [ {
-        "name": "cta/composer",
+        "name": "moyo/composer",
         "type": "vcs",
-        "url": "https://github.com/cta-int/composer.git"
+        "url": "https://github.com/kedweber/com_composer.git"
     },{
-        "name": "cta/articles",
+        "name": "moyo/articles",
         "type": "vcs",
-        "url": "https://github.com/cta-int/articles.git"
+        "url": "https://github.com/kedweber/com_articles.git"
     },{
-        "name": "cta/default",
+        "name": "moyo/default",
         "type": "vcs",
-        "url": "https://github.com/cta-int/moyo.git"
+        "url": "https://github.com/kedweber/com_moyo.git"
     },{
-      "name": "cta/featured",
+      "name": "moyo/featured",
       "type": "vcs",
-      "url": "https://github.com/cta-int/featured.git"
+      "url": "https://github.com/kedweber/com_featured.git"
     },{
-        "name": "cta/taxonomy",
+        "name": "moyo/taxonomy",
         "type": "vcs",
-        "url": "https://github.com/cta-int/taxonomy.git"
+        "url": "https://github.com/kedweber/com_taxonomy.git"
     },{
-        "name": "cta/cck",
+        "name": "moyo/cck",
         "type": "vcs",
-        "url": "https://github.com/cta-int/cck.git"
+        "url": "https://github.com/kedweber/com_cck.git"
     },{
-        "name": "cta/translations",
+        "name": "moyo/translations",
         "type": "vcs",
-        "url": "https://github.com/cta-int/translations.git"
+        "url": "https://github.com/kedweber/com_translations.git"
     },{
-        "name": "cta/categories",
+        "name": "moyo/categories",
         "type": "vcs",
-        "url": "https://github.com/cta-int/makundi.git"
+        "url": "https://github.com/kedweber/com_makundi.git"
     },{
         "name": "moyo/cloudinary",
         "type": "vcs",
         "url": "https://github.com/moyoweb/cloudinary.git"
     },{
-        "name": "cta/kutafuta",
+        "name": "moyo/kutafuta",
         "type": "vcs",
-        "url": "https://github.com/cta-int/kutafuta.git"
+        "url": "https://github.com/kedweber/com_kutafuta.git"
     },{
-        "name": "cta/carousel",
+        "name": "moyo/carousel",
         "type": "vcs",
-        "url": "https://github.com/cta-int/carousel.git"
+        "url": "https://github.com/kedweber/com_carousel.git"
     },{
-        "name": "cta/sitemap",
+        "name": "moyo/sitemap",
         "type": "vcs",
-        "url": "https://github.com/cta-int/sitemap.git"
+        "url": "https://github.com/kedweber/com_sitemap.git"
     },{
-        "name": "cta/router",
+        "name": "moyo/pkg_router",
         "type": "vcs",
-        "url": "https://github.com/cta-int/router.git"
+        "url": "https://github.com/kedweber/pkg_router.git"
     },{
-        "name": "cta/terms",
+        "name": "moyo/terms",
         "type": "vcs",
-        "url": "https://github.com/cta-int/terms.git"
+        "url": "https://github.com/kedweber/com_terms.git"
     } ]
     ,
     "require": {
-        "cta/composer": "1.0.*",
-        "cta/articles": "2.4.*",
-        "cta/default": "1.2.*",
-        "cta/featured": "2.0.*",
-        "cta/taxonomy": "2.0.*",
-        "cta/cck": "1.5.*",
-        "cta/translations": "1.1.*",
-        "cta/categories": "1.2.*",
-        "moyo/cloudinary": "1.1.*",
-        "cta/kutafuta": "1.1.*",
-        "cta/carousel": "1.0.*",
-        "cta/sitemap": "1.0.*",
-        "cta/router": "3.0.*",
-        "cta/terms": "1.1.*"
+        "moyo/com_composer": "1.0.*",
+        "moyo/com_articles": "2.4.*",
+        "moyo/com_default": "1.2.*",
+        "moyo/com_featured": "2.0.*",
+        "moyo/com_taxonomy": "2.0.*",
+        "moyo/com_cck": "1.5.*",
+        "moyo/com_translations": "1.1.*",
+        "moyo/com_categories": "1.2.*",
+        "moyo/com_cloudinary": "1.1.*",
+        "moyo/com_kutafuta": "1.1.*",
+        "moyo/com_carousel": "1.0.*",
+        "moyo/com_sitemap": "1.0.*",
+        "moyo/pkg_router": "3.0.*",
+        "moyo/com_terms": "1.1.*"
     }
 }
