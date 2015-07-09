@@ -46,6 +46,18 @@
         "type": "vcs",
         "url": "https://github.com/kedweber/com_profile.git"  
     },{
+        "name": "moyo/com_social",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_social.git"
+    },{
+        "name": "moyo/com_briteverify",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_briteverify.git"
+    },{
+        "name": "moyo/com_wufoo",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_wufoo.git"
+    },{
         "name": "moyo/com_cloudinary",
         "type": "vcs",
         "url": "https://github.com/moyoweb/cloudinary.git"
@@ -85,6 +97,9 @@
         "moyo/com_featured": "2.0.*",
         "moyo/com_taxonomy": "2.0.*",
         "moyo/com_profile": "1.1.*",
+        "moyo/com_social": "1.0.*",
+        "moyo/com_briteverify": "1.0.*",
+        "moyo/com_wufoo": "1.1.*",
         "moyo/com_cloudinary": "1.1.*",
         "moyo/com_kutafuta": "1.1.*",
         "moyo/com_carousel": "1.0.*",
