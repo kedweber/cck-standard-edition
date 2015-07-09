@@ -1,5 +1,5 @@
 {
-    "name": "moyo/cta_int",
+    "name": "moyo/cck-standard-edition",
     "description": "Content Construction Kit Skeleton Site",
     "license": "GPL-3.0+",
     "authors": [
@@ -10,47 +10,51 @@
         }
     ],
     "repositories": [ {
-        "name": "moyo/composer",
+        "name": "moyo/com_composer",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_composer.git"
     },{
-        "name": "moyo/articles",
+        "name": "moyo/com_articles",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_articles.git"
     },{
-        "name": "moyo/default",
+        "name": "moyo/com_default",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_moyo.git"
     },{
-      "name": "moyo/featured",
-      "type": "vcs",
-      "url": "https://github.com/kedweber/com_featured.git"
+        "name": "moyo/com_featured",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_featured.git"
     },{
-        "name": "moyo/taxonomy",
+        "name": "moyo/com_taxonomy",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_taxonomy.git"
     },{
-        "name": "moyo/cck",
+        "name": "moyo/com_cck",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_cck.git"
     },{
-        "name": "moyo/translations",
+        "name": "moyo/com_translations",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_translations.git"
     },{
-        "name": "moyo/categories",
+        "name": "moyo/com_categories",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_makundi.git"
     },{
-        "name": "moyo/cloudinary",
+        "name": "moyo/com_profile",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_profile.git"  
+    },{
+        "name": "moyo/com_cloudinary",
         "type": "vcs",
         "url": "https://github.com/moyoweb/cloudinary.git"
     },{
-        "name": "moyo/kutafuta",
+        "name": "moyo/com_kutafuta",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_kutafuta.git"
     },{
-        "name": "moyo/carousel",
+        "name": "moyo/com_carousel",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_carousel.git"
     },{
@@ -62,25 +66,30 @@
         "type": "vcs",
         "url": "https://github.com/kedweber/pkg_router.git"
     },{
-        "name": "moyo/terms",
+        "name": "moyo/com_terms",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_terms.git"
-    } ]
-    ,
+    },{
+        "name": "moyo/mod_megamenu",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_megamenu.git"
+    }],
     "require": {
         "moyo/com_composer": "1.0.*",
-        "moyo/com_articles": "2.4.*",
+        "moyo/pkg_router": "3.0.*",
         "moyo/com_default": "1.2.*",
-        "moyo/com_featured": "2.0.*",
-        "moyo/com_taxonomy": "2.0.*",
         "moyo/com_cck": "1.5.*",
         "moyo/com_translations": "1.1.*",
         "moyo/com_categories": "1.2.*",
+        "moyo/com_articles": "2.4.*",
+        "moyo/com_featured": "2.0.*",
+        "moyo/com_taxonomy": "2.0.*",
+        "moyo/com_profile": "1.1.*",
         "moyo/com_cloudinary": "1.1.*",
         "moyo/com_kutafuta": "1.1.*",
         "moyo/com_carousel": "1.0.*",
         "moyo/com_sitemap": "1.0.*",
-        "moyo/pkg_router": "3.0.*",
-        "moyo/com_terms": "1.1.*"
+        "moyo/com_terms": "1.1.*",
+        "moyo/mod_megamenu": "1.0.*"
     }
 }
