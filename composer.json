@@ -60,7 +60,7 @@
     },{
         "name": "moyo/com_cloudinary",
         "type": "vcs",
-        "url": "https://github.com/moyoweb/cloudinary.git"
+        "url": "https://github.com/kedweber/com_cloudinary.git"
     },{
         "name": "moyo/com_kutafuta",
         "type": "vcs",
@@ -85,6 +85,22 @@
         "name": "moyo/mod_megamenu",
         "type": "vcs",
         "url": "https://github.com/kedweber/mod_megamenu.git"
+    },{
+        "name": "moyo/com_publications",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_publications.git"
+    },{
+        "name": "moyo/mod_mobile_menu",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_mobile_menu.git"
+    },{
+        "name": "moyo/mod_footer",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_footer.git"
+    },{
+        "name": "moyo/com_disqus",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_disqus.git"
     }],
     "require": {
         "moyo/com_composer": "1.0.*",
@@ -105,6 +121,10 @@
         "moyo/com_carousel": "1.0.*",
         "moyo/com_sitemap": "1.0.*",
         "moyo/com_terms": "1.1.*",
-        "moyo/mod_megamenu": "1.0.*"
+        "moyo/mod_megamenu": "1.0.*",
+        "moyo/com_publications": "1.0.*",
+        "moyo/mod_mobile_menu": "1.0.*",
+        "moyo/mod_footer": "1.0.*",
+        "moyo/com_disqus": "1.0.*"
     }
 }
