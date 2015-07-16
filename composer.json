@@ -101,6 +101,14 @@
         "name": "moyo/com_disqus",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_disqus.git"
+    },{
+        "name": "moyo/com_events",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_events.git"
+    },{
+        "name": "moyo/com_tenders",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_tenders.git"
     }],
     "require": {
         "moyo/com_composer": "1.0.*",
@@ -109,6 +117,7 @@
         "moyo/com_cck": "1.5.*",
         "moyo/com_translations": "1.1.*",
         "moyo/com_categories": "1.2.*",
+        "moyo/com_regions": "???????????????",
         "moyo/com_articles": "2.4.*",
         "moyo/com_featured": "2.0.*",
         "moyo/com_taxonomy": "2.0.*",
@@ -124,7 +133,18 @@
         "moyo/mod_megamenu": "1.0.*",
         "moyo/com_publications": "1.0.*",
         "moyo/mod_mobile_menu": "1.0.*",
-        "moyo/mod_footer": "1.0.*",
-        "moyo/com_disqus": "1.0.*"
+        "moyo/mod_cookie": "1.0.*",
+        "moyo/mod_cookie-law": "Same as above? ???????????????",
+        "moyo/com_disqus": "1.0.*",
+        "moyo/com_events": "1.0.*",
+        "moyo/com_tenders": "1.0.*",
+        "moyo/com_multimedia": "?????????",
+        "moyo/com_portals": "??????????",
+        "moyo/com_redis": "????????",
+        "moyo/com_facebook": "????????",
+        "moyo/com_email-cloaking": "???????? plugin",
+        "moyo/com_multi_site": "????????",
+        "moyo/com_documents": "????????",
+        "moyo/event-manager": "??????"
     }
 }
