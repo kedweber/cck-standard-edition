@@ -121,6 +121,14 @@
         "name": "moyo/com_redis",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_redis.git"
+    },{
+        "name": "moyo/mod_facebook",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_facebook.git"
+    },{
+        "name": "moyo/com_documents",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_documents.git"
     }],
     "require": {
         "moyo/com_composer": "1.0.*",
@@ -153,10 +161,11 @@
         "moyo/com_tenders": "1.0.*",
         "moyo/com_portals": "1.0.*",
         "moyo/com_redis": "1.0.*",
-        "moyo/com_facebook": "????????",
-        "moyo/com_email-cloaking": "???????? plugin",
-        "moyo/com_multi_site": "????????",
-        "moyo/com_documents": "????????",
+        "moyo/mod_facebook": "1.0.*",
+        "moyo/plg_email_cloaking": "1.0.* release needed",
+        "moyo/email-cloaking": "???????? plugin",
+        "moyo/com_multi_site": "0.0.0 ? Die, this is not a general website setup",
+        "moyo/com_documents": "1.0.* ??",
         "moyo/event-manager": "??????"
     }
 }
