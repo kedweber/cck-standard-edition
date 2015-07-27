@@ -131,10 +131,3 @@ are generated. Each connection consists of the following elements:
 * **name** The name of the element within the package that needs displaying. The developer will recognize that this
  refers to the view within the package.
 
-
-## Git Notes
-
-```
-git remote add origin https://github.com/kedweber/cck-standard-edition.git
-git push -u origin master
-```
