@@ -1,5 +1,5 @@
 {
-    "name": "moyo/cta_int",
+    "name": "moyo/cck-standard-edition",
     "description": "Content Construction Kit Skeleton Site",
     "license": "GPL-3.0+",
     "authors": [
@@ -10,47 +10,67 @@
         }
     ],
     "repositories": [ {
-        "name": "moyo/composer",
+        "name": "moyo/com_composer",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_composer.git"
     },{
-        "name": "moyo/articles",
+        "name": "moyo/com_articles",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_articles.git"
     },{
-        "name": "moyo/default",
+        "name": "moyo/com_default",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_moyo.git"
     },{
-      "name": "moyo/featured",
-      "type": "vcs",
-      "url": "https://github.com/kedweber/com_featured.git"
+        "name": "moyo/com_featured",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_featured.git"
     },{
-        "name": "moyo/taxonomy",
+        "name": "moyo/com_taxonomy",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_taxonomy.git"
     },{
-        "name": "moyo/cck",
+        "name": "moyo/com_cck",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_cck.git"
     },{
-        "name": "moyo/translations",
+        "name": "moyo/com_multimedia",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_multimedia.git"
+    },{
+        "name": "moyo/com_translations",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_translations.git"
     },{
-        "name": "moyo/categories",
+        "name": "moyo/com_categories",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_makundi.git"
     },{
-        "name": "moyo/cloudinary",
+        "name": "moyo/com_profile",
         "type": "vcs",
-        "url": "https://github.com/moyoweb/cloudinary.git"
+        "url": "https://github.com/kedweber/com_profile.git"  
     },{
-        "name": "moyo/kutafuta",
+        "name": "moyo/com_social",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_social.git"
+    },{
+        "name": "moyo/com_briteverify",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_briteverify.git"
+    },{
+        "name": "moyo/com_wufoo",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_wufoo.git"
+    },{
+        "name": "moyo/com_cloudinary",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_cloudinary.git"
+    },{
+        "name": "moyo/com_kutafuta",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_kutafuta.git"
     },{
-        "name": "moyo/carousel",
+        "name": "moyo/com_carousel",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_carousel.git"
     },{
@@ -62,25 +82,90 @@
         "type": "vcs",
         "url": "https://github.com/kedweber/pkg_router.git"
     },{
-        "name": "moyo/terms",
+        "name": "moyo/com_terms",
         "type": "vcs",
         "url": "https://github.com/kedweber/com_terms.git"
-    } ]
-    ,
+    },{
+        "name": "moyo/mod_megamenu",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_megamenu.git"
+    },{
+        "name": "moyo/com_publications",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_publications.git"
+    },{
+        "name": "moyo/mod_mobile_menu",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_mobile_menu.git"
+    },{
+        "name": "moyo/mod_footer",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_footer.git"
+    },{
+        "name": "moyo/com_disqus",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_disqus.git"
+    },{
+        "name": "moyo/com_events",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_events.git"
+    },{
+        "name": "moyo/com_tenders",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_tenders.git"
+    },{
+        "name": "moyo/com_portals",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_portals.git"
+    },{
+        "name": "moyo/com_redis",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_redis.git"
+    },{
+        "name": "moyo/mod_facebook",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/mod_facebook.git"
+    },{
+        "name": "moyo/com_documents",
+        "type": "vcs",
+        "url": "https://github.com/kedweber/com_documents.git"
+    }],
     "require": {
         "moyo/com_composer": "1.0.*",
-        "moyo/com_articles": "2.4.*",
+        "moyo/pkg_router": "3.0.*",
         "moyo/com_default": "1.2.*",
-        "moyo/com_featured": "2.0.*",
-        "moyo/com_taxonomy": "2.0.*",
         "moyo/com_cck": "1.5.*",
+        "moyo/com_multimedia": "1.2.*",
         "moyo/com_translations": "1.1.*",
         "moyo/com_categories": "1.2.*",
+        "moyo/com_regions": "???????????????",
+        "moyo/com_articles": "2.4.*",
+        "moyo/com_featured": "2.0.*",
+        "moyo/com_taxonomy": "2.0.*",
+        "moyo/com_profile": "1.1.*",
+        "moyo/com_social": "1.0.*",
+        "moyo/com_briteverify": "1.0.*",
+        "moyo/com_wufoo": "1.1.*",
         "moyo/com_cloudinary": "1.1.*",
         "moyo/com_kutafuta": "1.1.*",
         "moyo/com_carousel": "1.0.*",
         "moyo/com_sitemap": "1.0.*",
-        "moyo/pkg_router": "3.0.*",
-        "moyo/com_terms": "1.1.*"
+        "moyo/com_terms": "1.1.*",
+        "moyo/mod_megamenu": "1.0.*",
+        "moyo/com_publications": "1.0.*",
+        "moyo/mod_mobile_menu": "1.0.*",
+        "moyo/mod_cookie": "1.0.*",
+        "moyo/mod_cookie-law": "Same as above? ???????????????",
+        "moyo/com_disqus": "1.0.*",
+        "moyo/com_events": "1.0.*",
+        "moyo/com_tenders": "1.0.*",
+        "moyo/com_portals": "1.0.*",
+        "moyo/com_redis": "1.0.*",
+        "moyo/mod_facebook": "1.0.*",
+        "moyo/plg_email_cloaking": "1.0.* release needed",
+        "moyo/email-cloaking": "???????? plugin",
+        "moyo/com_multi_site": "0.0.0 ? Die, this is not a general website setup",
+        "moyo/com_documents": "1.0.* ??",
+        "moyo/event-manager": "??????"
     }
 }
